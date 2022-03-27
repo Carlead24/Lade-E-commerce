@@ -1,0 +1,13 @@
+/* Navbar */
+.navbar-nav a{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.card-title{
+    color: black;
+}
+
+.card-text{
+    color: black;
+}
