@@ -73,7 +73,7 @@ const Products = () => {
                     <div class="card-body">
                     <h5 class="card-title mb-0 ">{product.title.substring(0,12)}....</h5>
                     <p class="card-text lead fw-bold"> ₦{product.price}</p>
-                    <NavLink to ="/cart" class="btn btn-outline-dark">Buy now</NavLink>
+                    <NavLink to={`./products/${product.id}`} class="btn btn-outline-dark">Buy now</NavLink>
                     </div>
                     </div>
                     </div>

@@ -3,7 +3,7 @@ const cart =[]
 const handleCart = (state = cart, action) =>{
     const product = action.payload
     switch (action.type) {
-        case 'ADDITEM':
+        case "ADDITEM":
         //TO CHECK IF PRODUCT ALREADY EXIST
         const exist = state.find((x)=> x.id === product.id );
         if(exist){
@@ -18,28 +18,25 @@ const handleCart = (state = cart, action) =>{
             {
                 ...product,
                 qty:1,
-
             }
         ]
     } 
        
-        break;
+    break;
 
-        case'DELITEM':
-        const exist1 =state.find ((x) => x.id === product.id);
+    case "DELITEM":
+    const exist1 =state.find ((x) => x.id === product.id);
         if(exist1.qty === 1){
             return state.filter((x) => x.id !== exist1.id);
-        }else{
+    }else{
             return state.map((x) => 
-            x.id === product.id ? {...x, qty: x.qty-1 } : x
-            );
-        }
+    x.id === product.id ? {...x, qty: x.qty-1 } : x
+    );
+    }
         break;
-
-
-        default:
+    default:
           return state;  
-            break;
+        break;
     }
 }
 
