@@ -47,7 +47,6 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
-
             
             <Login/>
             <Signup/>
