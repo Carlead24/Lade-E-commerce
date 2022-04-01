@@ -7,7 +7,7 @@ const Home = () => {
     <div className="hero">
       <div className="card bg-dark text-white border-0">
         <img
-          src="../assets/BG7.jpg"
+          src="../assets/AA6.jpg"
           className="card-img"
           alt="Background"
           height="550px"
@@ -17,7 +17,7 @@ const Home = () => {
             <h5 className="card-title display-3 fw-bolder mb-0">
               NEW SEASON ARRIVALS
             </h5>
-            <p className="card-text lead fs-3">CHECK OUT ALL THE TRENDS</p>
+            <p className="card-text lead fs-2">CHECK OUT ALL THE TRENDS</p>
           </div>
         </div>
       </div>
