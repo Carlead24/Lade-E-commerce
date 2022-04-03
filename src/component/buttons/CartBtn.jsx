@@ -1,7 +1,8 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const CartBtn = () => {
+  
     return (
         <>
             <NavLink to="/cart" className="btn btn-dark ms-2">
@@ -11,4 +12,4 @@ const CartBtn = () => {
     )
 }
 
-export default CartBtn;
+export default CartBtn
