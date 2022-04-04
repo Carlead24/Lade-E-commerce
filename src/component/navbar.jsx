@@ -13,6 +13,7 @@ const Navbar = () => {
         <div className="container">
           <NavLink className="navbar-brand fw-bold fs-2" to="/"> L'ade </NavLink>
           
+          
           <button
             className="navbar-toggler"
             type="button"
