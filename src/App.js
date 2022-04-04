@@ -10,7 +10,6 @@ import About from './component/About'
 import Contact from './component/Contact'
 import Footer from './component/Footer';
 
-
 function App() {
   return (
     <>
