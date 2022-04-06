@@ -9,7 +9,19 @@ const About = () => {
                     <div className="col-md-6">
                         <h1 className="text-dark fw-bold mb-1">About Us</h1>
                         <p className="lead mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae earum rem doloremque, nihil delectus ullam error consectetur? Dicta, non exercitationem in consectetur totam dolorum at voluptate laudantium aliquam, officiis perspiciatis molestias reiciendis consequuntur ullam perferendis velit blanditiis distinctio assumenda a maxime reprehenderit atque. Nam eius rerum distinctio, a illo earum, optio molestias nostrum maxime quibusdam delectus, adipisci impedit? Nam corporis reiciendis minus quod eaque, laborum veritatis voluptatibus id maiores tempore accusantium recusandae perspiciatis, officia cum ad maxime fuga repellendus a magni consequatur. Unde adipisci hic provident est sint corporis, dolorem esse autem soluta molestiae optio quisquam eligendi obcaecati minima?
+                        L'ade.com is Nigeria's largest online mall. We launched in April 2022 and our mission is to become the engine of commerce and trade in Africa.
+
+                        We serve a retail customer base that continues to grow exponentially, offering products that span various categories including Electronics, Clothing, Shoes, Home Appliances and much more.
+
+                        Our range of services are designed to ensure optimum levels of convenience and customer satisfaction with the retail process; these services include our lowest price guarantee, 7-day free return policy*, order delivery-tracking, dedicated customer service support and many other premium services.
+
+                        As we continue to expand the mall, our scope of offerings will increase in variety, simplicity and convenience; join us and enjoy the increasing benefits.
+
+                        We are highly customer-centric and are committed towards finding innovative ways of improving our customers' shopping experience with us; so give us some feedback on help@Lade.com. For any press related questions, kindly send us an email at press@Lade.com.
+
+                        Thank you and we hope you enjoy your experience with us.
+
+                        *Available for select stores            
                         </p>
                         <NavLink to="/contact" className="btn btn-outline-dark px-3">Contact Us</NavLink>
                     </div>

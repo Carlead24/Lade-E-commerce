@@ -47,7 +47,7 @@ const Login = () => {
                 </div>
                 <div className="mb-3 form-check">
                   <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                  <label className="form-check-label" htmlFor="exampleCheck1"> Check me out </label>
+                  <label className="form-check-label" htmlFor="exampleCheck1"> Keep me sign in </label>
                 </div>
                 <button type="submit" className="btn btn-outline-dark w-100 mt-5"> Submit </button>
             </form>

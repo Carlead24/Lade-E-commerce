@@ -1,12 +1,12 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
-import {delItem} from '../redux/action/index'
+import { delItem } from '../redux/action/index'
 import { NavLink } from 'react-router-dom'
 
 
 const Cart = () => {
-    const state = useSelector((state)=> state.addItem)
+    const state = useSelector((state)=> state.handleCart)
     const dispatch = useDispatch()
 
     const handleClose = (item) => {
@@ -20,11 +20,11 @@ const Cart = () => {
                     <button onClick={()=>handleClose(cartItem)} className="btn-close float-end" aria-label="Close"></button>
                     <div className="row justify-content-center">
                         <div className="col-md-4">
-                            <img src={cartItem.img} alt={cartItem.title} height="200px" width="180px" />
+                            <img src={cartItem.image} alt={cartItem.title} height="200px" width="180px" />
                         </div>
                         <div className="col-md-4">
                             <h3>{cartItem.title}</h3>
-                            <p className="lead fw-bold">${cartItem.price}</p>
+                            <p className="lead fw-bold">₦{cartItem.price}</p>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Cart = () => {
         return(
             <div className="container">
                 <div className="row">
-                    <NavLink to="/checkout" className="btn btn-outline-primary mb-5 w-25 mx-auto">Proceed To checkout</NavLink>
+                    <NavLink to="/checkout" className="btn btn-outline-dark mb-5 w-25 mx-auto">Proceed To checkout</NavLink>
                 </div>
             </div>
         );

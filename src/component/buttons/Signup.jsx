@@ -37,7 +37,7 @@ const Signup = () => {
                                 </div>
                                 <div className="mb-3 form-check">
                                     <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                                    <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
+                                    <label className="form-check-label" htmlFor="exampleCheck1">Remember me</label>
                                 </div>
                                 <button type="submit" className="btn btn-outline-dark w-100 mt-5">Register</button>
                             </form>
